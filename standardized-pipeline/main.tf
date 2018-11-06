@@ -1,3 +1,7 @@
+provider "teamcity" {
+  version = "0.4"
+}
+
 resource "teamcity_project" "project" {
   name = "${var.project_name}"
   description = "${var.project_description}"
